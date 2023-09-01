@@ -160,3 +160,9 @@ this_dict = dict.fromkeys(x, y)
 print(this_dict)
 this_dict = dict.fromkeys(x)
 print(this_dict)
+
+
+# dictionary Comprehension
+# new_dict = {key:value for (key, value) in iterable}
+# new_dict = {key:value for (key, value) in iterable if condition == True}
+# new_dict = {if_expression if condition == True else else_expression for (key, value) in iterable}

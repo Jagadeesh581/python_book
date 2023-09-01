@@ -108,3 +108,9 @@ while i < len(this_tuple):
 # Methods:
 # count()
 # index()
+
+
+# tuple Comprehension
+# new_tuple = (expression for item in iterable)
+# new_tuple = (expression for item in iterable if condition == True)
+# new_tuple = (if_expression if condition == True else else_expression for item in iterable)

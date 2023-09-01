@@ -132,3 +132,9 @@ x = {"f", "e", "d", "c", "b", "a"}
 y = {"a", "b", "c"}
 z = x.issuperset(y)
 print(z)
+
+
+# set Comprehension
+# new_set = {expression for item in iterable}
+# new_set = {expression for item in iterable if condition == True}
+# new_set = {if_expression if condition == True else else_expression for item in iterable}
